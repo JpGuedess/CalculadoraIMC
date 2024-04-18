@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="CalculadoraIMC.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#012030">
+
+    <VerticalStackLayout
+        Margin="10"
+        Spacing="25"
+        VerticalOptions="Center">
+        <Label
+            FontAttributes="Bold"
+            FontSize="30"
+            HorizontalTextAlignment="Center"
+            Text="Calculadora de IMC"
+            TextColor="#CCCCCC" />
+        <Entry
+            x:Name="Peso"
+            Placeholder="Peso em KG:"
+            PlaceholderColor="#7d7c7c"
+            TextColor="#CCCCCC" />
+        <Entry
+            x:Name="Altura"
+            Placeholder="Altura em Metros:"
+            PlaceholderColor="#7d7c7c"
+            TextColor="#CCCCCC" />
+        <Entry
+            x:Name="IMC"
+            Placeholder="Seu IMC"
+            PlaceholderColor="#7d7c7c"
+            TextColor="#CCCCCC" />
+        <Button
+            BackgroundColor="#13678A"
+            Clicked="Button_Clicked"
+            FontAttributes="Bold"
+            Text="CALCULAR"
+            TextColor="White" />
+    </VerticalStackLayout>
+</ContentPage>

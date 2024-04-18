@@ -1,0 +1,1 @@
+C:\Users\jpgue\source\repos\CalculadoraIMC\CalculadoraIMC\CalculadoraIMC.csproj;x64
