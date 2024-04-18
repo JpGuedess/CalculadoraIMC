@@ -8,35 +8,47 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CalculadoraIMC
-build_property.ProjectDir = C:\Users\jpgue\source\repos\CalculadoraIMC\CalculadoraIMC\
+build_property.ProjectDir = C:\Users\Professor\Desktop\Nova pasta (2)\CalculadoraIMC\CalculadoraIMC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/jpgue/source/repos/CalculadoraIMC/CalculadoraIMC/App.xaml]
+[C:/Users/Professor/Desktop/Nova pasta (2)/CalculadoraIMC/CalculadoraIMC/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CalculadoraIMC.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jpgue/source/repos/CalculadoraIMC/CalculadoraIMC/AppShell.xaml]
+[C:/Users/Professor/Desktop/Nova pasta (2)/CalculadoraIMC/CalculadoraIMC/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CalculadoraIMC.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/jpgue/source/repos/CalculadoraIMC/CalculadoraIMC/MainPage.xaml]
+[C:/Users/Professor/Desktop/Nova pasta (2)/CalculadoraIMC/CalculadoraIMC/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CalculadoraIMC.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/jpgue/source/repos/CalculadoraIMC/CalculadoraIMC/Resources/Styles/Colors.xaml]
+[C:/Users/Professor/Desktop/Nova pasta (2)/CalculadoraIMC/CalculadoraIMC/Paginas/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CalculadoraIMC.Paginas.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Home.xaml
+
+[C:/Users/Professor/Desktop/Nova pasta (2)/CalculadoraIMC/CalculadoraIMC/Paginas/Sobre.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CalculadoraIMC.Paginas.Sobre.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Sobre.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Sobre.xaml
+
+[C:/Users/Professor/Desktop/Nova pasta (2)/CalculadoraIMC/CalculadoraIMC/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CalculadoraIMC.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/jpgue/source/repos/CalculadoraIMC/CalculadoraIMC/Resources/Styles/Styles.xaml]
+[C:/Users/Professor/Desktop/Nova pasta (2)/CalculadoraIMC/CalculadoraIMC/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CalculadoraIMC.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

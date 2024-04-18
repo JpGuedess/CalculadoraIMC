@@ -3,10 +3,18 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Android_Emulator_33 (Android 13.0 – API 33)</ActiveDebugProfile>
-    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+    <ActiveDebugProfile>Xiaomi 22111317PG (Android 14.0 – API 34)</ActiveDebugProfile>
+    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
     <DefaultDevice>Android_Emulator_33</DefaultDevice>
   </PropertyGroup>
+  <ItemGroup>
+    <MauiXaml Update="Paginas\Home.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Paginas\Sobre.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+  </ItemGroup>
   <ItemGroup>
     <None Update="App.xaml">
       <SubType>Designer</SubType>

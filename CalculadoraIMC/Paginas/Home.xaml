@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculadoraIMC.Paginas.Home"
+             BackgroundColor="#012030">
+
+    <VerticalStackLayout
+    Margin="30"
+    Spacing="25" >
+        <Label
+        FontAttributes="Bold"
+        FontSize="30"
+        Text="O que é IMC?"
+        TextColor="#CCCCCC" /> 
+        <Label
+        FontAttributes="Bold"
+        FontSize="20"
+        Text="O IMC (índice de massa corporal) é uma medida internacional usada para calcular se uma pessoa está no peso ideal. Para obter o IMC, basta dividir o seu peso (em quilos) pela altura (em metros) elevada ao quadrado (altura x altura)."
+        TextColor="#CCCCCC" />
+       
+        <TableView Intent="Menu">
+            <TableRoot>
+                <TableSection TextColor="White" Title="Indice de Massa Corporal">
+                    <TextCell TextColor="White" Text="Abaixo de 18,50 = Abaixo do Peso"></TextCell>
+                    <TextCell TextColor="White" Text="Entre 18,60 e 24,99 = Peso Ideal"></TextCell>
+                    <TextCell TextColor="White" Text="Entre 25 e 29,99 = Levemente acima do Peso"></TextCell>
+                    <TextCell TextColor="White" Text="Entre 30 e 34,99 = Obesidade Grau I"></TextCell>
+                    <TextCell TextColor="White" Text="Entre 35 e 39,99 = Obesidade Grau II"></TextCell>
+                    <TextCell TextColor="White" Text="Acima de 40 = Obesidade Grau III"></TextCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </VerticalStackLayout>
+   
+</ContentPage>
