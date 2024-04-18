@@ -61,14 +61,5 @@
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
-
-
-	<PropertyGroup Condition="$(TargetFrameWork.Contains('-android')) and '$(Configuration) == Release">
-		<AndroidKeyStore>True</AndroidKeyStore>
-		<AndroidSigningKeyStore>..\key.keystore</AndroidSigningKeyStore>
-		<AndroidSigningStorePass>teste123</AndroidSigningStorePass>
-		<AndroidSigningKeyAlias>MauitestAlias</AndroidSigningKeyAlias>
-		<AndroidSigningKeyPass>teste123</AndroidSigningKeyPass>
-	</PropertyGroup>	
-
+	
 </Project>
