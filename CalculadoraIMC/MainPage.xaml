@@ -41,6 +41,12 @@
             FontAttributes="Bold"
             TextColor="#CCCCCC"
             HorizontalTextAlignment="Center"/>
+        <Label
+            x:Name="IMCNum"
+            FontSize="30"
+            FontAttributes="Bold"
+            TextColor="Purple"
+            HorizontalTextAlignment="Center"/>
     </VerticalStackLayout>
 
 </ContentPage>

@@ -1,4 +1,6 @@
-﻿namespace CalculadoraIMC
+﻿using System.Drawing;
+
+namespace CalculadoraIMC
 {
     public partial class MainPage : ContentPage
     {
@@ -20,27 +22,29 @@
             var imc = peso / (altura * altura);
 
             IMC.Text = imc.ToString("F2");
-
+            IMCNum.Text = imc.ToString("F2");
+            
             string resultado = GetImcMensagem(imc);
+            
         }
 
         private string GetImcMensagem(double imc)
         {
             if(imc <= AbaixoDoPeso)
             {
-                return IMC.Text = imc.ToString("Você está abaixo do peso, seu imc é:" + imc.ToString("F2"));
+                return IMC.Text = imc.ToString("Você está abaixo do peso, seu imc é:");
             }
             if (imc <= PesoNormal)
             {
-                return IMC.Text = imc.ToString("Você no peso normal, seu imc é:" + imc.ToString("F2"));
+                return IMC.Text = imc.ToString("Você no peso normal, seu imc é:");
             }
             if (imc <= AcimaDoPeso)
             {
-                return IMC.Text = imc.ToString("Você está acima do peso, seu imc é:" + imc.ToString("F2"));
+                return IMC.Text = imc.ToString("Você está acima do peso, seu imc é:");
             }
             else 
             {
-                return IMC.Text = imc.ToString("Você está obeso, tome cuidado com sua saude!!! seu imc é:" + imc.ToString("F2"));
+                return IMC.Text = imc.ToString("Você está obeso, tome cuidado com sua saude!!! seu imc é:");
             }
         }
 
