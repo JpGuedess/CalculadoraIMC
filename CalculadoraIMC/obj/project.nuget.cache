@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ryJ8l9kdbHn9q6FSGpmGeQm8Cf99I//+wPCaOXwNuR+Ma8ITnLL/nRUPtAUqZn/H7vFhCS0zTBqi7d2qanf2vw==",
+  "dgSpecHash": "yuMI+rko7v+TH23nsv1IVL/94U+IffiWAV6Zs94QoLZCa+w6Vxmdp3yyzfMjQArtUOvwcC3fLthqV8qI3oarcA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Professor\\Desktop\\Nova pasta (2)\\CalculadoraIMC\\CalculadoraIMC\\CalculadoraIMC.csproj",
   "expectedPackageFiles": [
@@ -111,6 +111,10 @@
     "C:\\Users\\Professor\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.9.0.1\\xamarin.kotlin.stdlib.jdk8.1.9.0.1.nupkg.sha512",
     "C:\\Users\\Professor\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.7.2.1\\xamarin.kotlinx.coroutines.android.1.7.2.1.nupkg.sha512",
     "C:\\Users\\Professor\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.7.2.1\\xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
+    "C:\\Users\\Professor\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.4\\microsoft.netcore.app.runtime.win-x64.8.0.4.nupkg.sha512",
+    "C:\\Users\\Professor\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.4.nupkg.sha512",
+    "C:\\Users\\Professor\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.4\\microsoft.aspnetcore.app.runtime.win-x64.8.0.4.nupkg.sha512",
+    "C:\\Users\\Professor\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.4\\microsoft.netcore.app.crossgen2.win-x64.8.0.4.nupkg.sha512",
     "C:\\Users\\Professor\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
   ],
   "logs": []

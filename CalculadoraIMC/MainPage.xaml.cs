@@ -22,26 +22,25 @@
             IMC.Text = imc.ToString("F2");
 
             string resultado = GetImcMensagem(imc);
-            DisplayAlert("Resultado", resultado, "Ok!");
         }
 
         private string GetImcMensagem(double imc)
         {
             if(imc <= AbaixoDoPeso)
             {
-                return "Você está abaixo do peso, seu imc é:" + imc;
+                return IMC.Text = imc.ToString("Você está abaixo do peso, seu imc é:" + imc.ToString("F2"));
             }
             if (imc <= PesoNormal)
             {
-                return "Você no peso normal, seu imc é:" + imc;
+                return IMC.Text = imc.ToString("Você no peso normal, seu imc é:" + imc.ToString("F2"));
             }
             if (imc <= AcimaDoPeso)
             {
-                return "Você está acima do peso, seu imc é:" + imc;
+                return IMC.Text = imc.ToString("Você está acima do peso, seu imc é:" + imc.ToString("F2"));
             }
             else 
             {
-                return "Você está obeso, tome cuidado com sua saude!!! seu imc é:" + imc;
+                return IMC.Text = imc.ToString("Você está obeso, tome cuidado com sua saude!!! seu imc é:" + imc.ToString("F2"));
             }
         }
 

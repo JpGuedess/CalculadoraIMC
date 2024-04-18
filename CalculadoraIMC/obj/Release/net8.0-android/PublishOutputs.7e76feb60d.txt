@@ -1,0 +1,4 @@
+C:\Users\Professor\Desktop\Nova pasta (2)\CalculadoraIMC\CalculadoraIMC\bin\Release\net8.0-android\publish\com.companyname.calculadoraimc-Signed.aab
+C:\Users\Professor\Desktop\Nova pasta (2)\CalculadoraIMC\CalculadoraIMC\bin\Release\net8.0-android\publish\com.companyname.calculadoraimc.aab
+C:\Users\Professor\Desktop\Nova pasta (2)\CalculadoraIMC\CalculadoraIMC\bin\Release\net8.0-android\publish\com.companyname.calculadoraimc-Signed.apk
+C:\Users\Professor\Desktop\Nova pasta (2)\CalculadoraIMC\CalculadoraIMC\bin\Release\net8.0-android\publish\_Microsoft.Android.Resource.Designer.dll

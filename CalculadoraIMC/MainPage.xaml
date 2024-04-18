@@ -19,23 +19,28 @@
             x:Name="Peso"
             Placeholder="Peso em KG:"
             PlaceholderColor="#7d7c7c"
-            TextColor="#CCCCCC"/>
+            TextColor="#CCCCCC"
+            Keyboard="Numeric"
+            />
         <Entry
             x:Name="Altura"
             Placeholder="Altura em Metros:"
             PlaceholderColor="#7d7c7c"
-            TextColor="#CCCCCC"/>
-        <Entry
-            x:Name="IMC"
-            Placeholder="Seu IMC"
-            PlaceholderColor="#7d7c7c"
-            TextColor="#CCCCCC" />
+            TextColor="#CCCCCC"
+            Keyboard="Numeric"
+            />
         <Button
             BackgroundColor="#13678A"
             Clicked="Button_Clicked"
             FontAttributes="Bold"
             Text="CALCULAR"
             TextColor="White"/>
+        <Label
+            x:Name="IMC"
+            FontSize="30"
+            FontAttributes="Bold"
+            TextColor="#CCCCCC"
+            HorizontalTextAlignment="Center"/>
     </VerticalStackLayout>
 
 </ContentPage>
